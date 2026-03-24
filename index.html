@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nexora Recommender</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<div class="container">
+  <h1>Nexora Anime Recommender</h1>
+
+  <label>Genre:</label>
+  <select id="genre">
+    <option value="fantasy">Fantasy</option>
+    <option value="mystery">Mystery</option>
+    <option value="romance">Romance</option>
+  </select>
+
+  <label>Tone:</label>
+  <select id="tone">
+    <option value="light">Light</option>
+    <option value="emotional">Emotional</option>
+    <option value="dark">Dark</option>
+  </select>
+
+  <label>Action:</label>
+  <select id="action">
+    <option value="low">Low</option>
+    <option value="medium">Medium</option>
+    <option value="high">High</option>
+  </select>
+
+  <button id="btn">Recommend</button>
+
+  <div id="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
